@@ -1,0 +1,21 @@
+[
+{
+  "modid": "WC",
+  "name": "WarriorCultures",
+  "description": "Now its truly fighting!",
+  "version": "0.0.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Scorpio,
+    obsidianCore"
+  ],
+  "credits": "obsidianCore, CraftedScorpio",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

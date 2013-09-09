@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>English (en_US) Localization File</comment>
+	<entry key="tile.BlockBlueStone.name">BlueStone Block</entry>
+	
+	<entry key="item.BlueStone Dust.name">BlueStone Dust</entry>
+	
+	<entry key="itemGroup.TabWCC">WarriorCultures Core</entry>
+</properties>
