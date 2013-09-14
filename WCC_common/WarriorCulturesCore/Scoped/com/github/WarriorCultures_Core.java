@@ -3,16 +3,15 @@ package WarriorCulturesCore.Scoped.com.github;
 
 import java.io.File;
 
-import WarriorCulturesCore.Scoped.com.github.block.WCCBlocks;
+import net.minecraft.creativetab.CreativeTabs;
+import WarriorCulturesCore.Scoped.com.github.block.ModBlocks;
 import WarriorCulturesCore.Scoped.com.github.core.handler.ConfigurationHandler;
 import WarriorCulturesCore.Scoped.com.github.core.handler.LocalizationHandler;
 import WarriorCulturesCore.Scoped.com.github.core.proxy.CommonProxy;
-import WarriorCulturesCore.Scoped.com.github.creativeTab.TabWC;
+import WarriorCulturesCore.Scoped.com.github.creativeTab.TabWCC;
 import WarriorCulturesCore.Scoped.com.github.item.WCCItems;
 import WarriorCulturesCore.Scoped.com.github.lib.Reference;
 import WarriorCulturesCore.Scoped.com.github.recipes.WCCRecipes;
-
-import net.minecraft.creativetab.CreativeTabs;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.PostInit;
@@ -42,7 +41,7 @@ public class WarriorCultures_Core
 	
 	public static CommonProxy proxy;
 	
-	public static CreativeTabs TabRSaH = new TabWC(CreativeTabs.getNextID(), Reference.MOD_ID);
+	public static CreativeTabs TabWCC = new TabWCC(CreativeTabs.getNextID(), Reference.MOD_ID);
 	
 	@PreInit
 	public void preInit(FMLPreInitializationEvent event)
@@ -51,7 +50,7 @@ public class WarriorCultures_Core
 		
 		LocalizationHandler.loadLanguages();
 		
-		WCCBlocks.BlocksInit();
+		ModBlocks.BlocksInit();
 		
 		WCCItems.ItemInit();
 		

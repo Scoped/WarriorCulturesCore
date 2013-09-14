@@ -4,9 +4,10 @@ package WarriorCulturesCore.Scoped.com.github.core.handler;
 import java.io.File;
 import java.util.logging.Level;
 
-import WarriorCulturesCore.Scoped.com.github.lib.Reference;
-
 import net.minecraftforge.common.Configuration;
+import WarriorCulturesCore.Scoped.com.github.lib.BlockIDs;
+import WarriorCulturesCore.Scoped.com.github.lib.Reference;
+import WarriorCulturesCore.Scoped.com.github.lib.Strings;
 import cpw.mods.fml.common.FMLLog;
 
 public class ConfigurationHandler
@@ -24,7 +25,8 @@ public class ConfigurationHandler
 			/**
 			 * Block Configuration
 			 */
-			//BlockIDs.BLOCK_WIRE_MAGMASTONE_ID = config.getBlock(Strings.BLOCK_WIRE_MAGMASTONE_NAME, BlockIDs.BLOCK_WIRE_MAGMASTONE_ID_DEFAULT).getInt(BlockIDs.BLOCK_WIRE_MAGMASTONE_ID_DEFAULT);
+			BlockIDs.BLOCK_META_OREBLOCKS_ID = config.getBlock(Strings.BLOCK_META_ORE_METAORES_NAME, BlockIDs.BLOCK_META_OREBLOCKS_ID_DEFAULT).getInt(BlockIDs.BLOCK_META_OREBLOCKS_ID_DEFAULT);			
+			BlockIDs.BLOCK_META_MINERALBLOCKS_ID = config.getBlock(Strings.BLOCK_META_MINERAL_METAMINERALS_NAME, BlockIDs.BLOCK_META_MINERALBLOCKS_ID_DEFAULT).getInt(BlockIDs.BLOCK_META_MINERALBLOCKS_ID_DEFAULT);
 			
 			/**
 			 * Item Configuration

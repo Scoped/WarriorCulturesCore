@@ -7,9 +7,9 @@ import net.minecraft.item.ItemStack;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class TabWC extends CreativeTabs
+public class TabWCC extends CreativeTabs
 {
-	public TabWC(int id, String name)
+	public TabWCC(int id, String name)
 	{
 		super(id, name);
 	}
