@@ -3,20 +3,45 @@
 <properties version="1.0">
 	<comment>English (en_US) Localization File</comment>
 	
-	<entry key="tile.TurquoiseOre.name">Turquoise Ore</entry>
-	<entry key="tile.ChalcedonyOre.name">Chalcedony Ore</entry>
-	<entry key="tile.JadeOre.name">Jade Ore</entry>
-	<entry key="tile.SilverOre.name">Silver Ore</entry>
-	<entry key="tile.CopperOre.name">Copper Ore</entry>
-	<entry key="tile.TinOre.name">Tin Ore</entry>
+	<entry key="tile.WCC_OresTurquoiseOre.name">Turquoise Ore</entry>
+	<entry key="tile.WCC_OresChalcedonyOre.name">Chalcedony Ore</entry>
+	<entry key="tile.WCC_OresJadeOre.name">Jade Ore</entry>
+	<entry key="tile.WCC_OresSilverOre.name">Silver Ore</entry>
+	<entry key="tile.WCC_OresCopperOre.name">Copper Ore</entry>
+	<entry key="tile.WCC_OresTinOre.name">Tin Ore</entry>
 	
-	<entry key="tile.MineralTurquoiseBlock.name">Turquoise Block</entry>
-	<entry key="tile.MineralChalcedonyBlock.name">Chalcedony Block</entry>
-	<entry key="tile.MineralJadeBlock.name">Jade Block</entry>
-	<entry key="tile.MineralSilverBlock.name">Silver Block</entry>
-	<entry key="tile.MineralCopperBlock.name">Tin Block</entry>
-	<entry key="tile.MineralTinBlock.name">Copper Block</entry>
-	<entry key="tile.MineralGoldBlock.name">Mineral Gold</entry>
+	<entry key="tile.WCC_MineralsTurquoiseBlock.name">Turquoise Block</entry>
+	<entry key="tile.WCC_MineralsChalcedonyBlock.name">Chalcedony Block</entry>
+	<entry key="tile.WCC_MineralsJadeBlock.name">Jade Block</entry>
+	<entry key="tile.WCC_MineralsSilverBlock.name">Silver Block</entry>
+	<entry key="tile.WCC_MineralsCopperBlock.name">Copper Block</entry>
+	<entry key="tile.WCC_MineralsTinBlock.name">Tin Block</entry>
+	<entry key="tile.WCC_MineralsBronzeBlock.name">Bronze Block</entry>
+	<entry key="tile.WCC_MineralsSteelBlock.name">Steel Block</entry>
+	
+	<entry key="tile.WeaponForgeIdle.name">Weapon Forge</entry>
+	
+	<entry key="item.SteelPickAxe.name">Steel Pickaxe</entry>
+	<entry key="item.SteelHatchet.name">Steel Hatchet</entry>
+	<entry key="item.SteelScythe.name">Steel Scythe</entry>
+	<entry key="item.SteelShovel.name">Steel Shovel</entry>
+	
+	<entry key="item.SteelHatchetHead.name">Hatchet Head</entry>
+	<entry key="item.SteelPickaxeHead.name">Pickaxe Head</entry>
+	<entry key="item.SteelScytheHead.name">Scythe Head</entry>
+	<entry key="item.SteelShovelHead.name">Shovel Head</entry>
+	<entry key="item.ForgeHammer.name">Hammer</entry>
+	<entry key="item.ForgePlaiers.name">Plaiers</entry>
+	
+	<entry key="item.RockChalcedonyStone.name">Chalcedony Stone</entry>
+	<entry key="item.RockJadeStone.name">Jade Stone</entry>
+	<entry key="item.RockTurquoiseStone.name">Turquoise Stone</entry>
+	
+	<entry key="item.IngotBronzeIngot.name">Bronze Ingot</entry>
+	<entry key="item.IngotCopperIngot.name">Copper Ingot</entry>
+	<entry key="item.IngotSilverIngot.name">Silver Ingot</entry>
+	<entry key="item.IngotSteelIngot.name">Steel Ingot</entry>
+	<entry key="item.IngotTinIngot.name">Tin Ingot</entry>
 	
 	<entry key="itemGroup.TabWCC">WarriorCultures Core</entry>
 	

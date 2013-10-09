@@ -37,9 +37,10 @@ public class Item_Mineral_MetaMinerals extends ItemBlock
 		case 1: {name = "Chalcedony" + defaultName; break;}
 		case 2: {name = "Jade" + defaultName; break;}
 		case 3: {name = "Silver" + defaultName; break;}
-		case 4: {name = "Copper" + defaultName; break;}
-		case 5: {name = "Tin" + defaultName; break;}
-		case 6: {name = "Gold" + defaultName; break;}
+		case 4: {name = "Steel" + defaultName; break;}
+		case 5: {name = "Copper" + defaultName; break;}
+		case 6: {name = "Bronze" + defaultName; break;}
+		case 7: {name = "Tin" + defaultName; break;}
 		}
 		return this.getUnlocalizedName() + name;
 	}

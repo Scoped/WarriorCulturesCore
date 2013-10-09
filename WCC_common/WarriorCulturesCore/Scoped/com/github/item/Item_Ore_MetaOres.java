@@ -39,6 +39,6 @@ public class Item_Ore_MetaOres extends ItemBlock
 		case 4: {name = "Copper" + defaultName; break;}
 		case 5: {name = "Tin" + defaultName; break;}
 		}
-		return name;
+		return this.getUnlocalizedName() + name;
 	}
 }

@@ -1,11 +1,10 @@
 package WarriorCulturesCore.Scoped.com.github.block;
 
 import net.minecraft.block.Block;
-import WarriorCulturesCore.Scoped.com.github.item.Item_Mineral_MetaMinerals;
-import WarriorCulturesCore.Scoped.com.github.item.Item_Ore_MetaOres;
+import WarriorCulturesCore.Scoped.com.github.WarriorCultures_Core;
 import WarriorCulturesCore.Scoped.com.github.lib.BlockIDs;
+import WarriorCulturesCore.Scoped.com.github.lib.Resources;
 import WarriorCulturesCore.Scoped.com.github.lib.Strings;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 
 public class ModBlocks
@@ -13,15 +12,16 @@ public class ModBlocks
 	public static Block MetaMineralBlocks;
 	public static Block MetaOreBlocks;
 	
+	public static Block blockQuartsFurnaceIdle;
+	public static Block blockQuartsFurnaceActive;
+	
 	public static void BlocksInit()
 	{
 		MetaOreBlocks = new Block_Meta_OreBlocks(BlockIDs.BLOCK_META_OREBLOCKS_ID);
-		MetaMineralBlocks = new Block_Meta_MineralBlocks(BlockIDs.BLOCK_META_MINERALBLOCKS_ID_DEFAULT);
+		MetaMineralBlocks = new Block_Meta_MineralBlocks(BlockIDs.BLOCK_META_MINERALBLOCKS_ID);
 		
-		/**
-		 * MetaBlock Registration
-		 */
-		GameRegistry.registerBlock(ModBlocks.MetaOreBlocks, Item_Ore_MetaOres.class, Strings.BLOCK_META_ORE_METAORES_NAME);
-		GameRegistry.registerBlock(ModBlocks.MetaMineralBlocks, Item_Mineral_MetaMinerals.class, Strings.BLOCK_META_MINERAL_METAMINERALS_NAME);
+		blockQuartsFurnaceIdle = new Block_WeaponForge(BlockIDs.BLOCK_WEAPONFORGE_IDLE_ID, false, Resources.textureLocation_WeaponForge_Idle).setUnlocalizedName(Strings.BLOCK_WEAPONFORGE_IDLE_NAME).setHardness(3.5F).setCreativeTab(WarriorCultures_Core.TabWCC);
+		blockQuartsFurnaceActive = new Block_WeaponForge(BlockIDs.BLOCK_WEAPONFORGE_ACTIVE_ID, true, Resources.textureLocation_WeaponForge_Active).setUnlocalizedName(Strings.BLOCK_WEAPONFORGE_ACTIVE_NAME).setHardness(3.5F).setLightValue(0.9F);
+		
 	}
 }

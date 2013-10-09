@@ -4,14 +4,14 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class LocalizationHelper
 {
-	public static boolean isXMLFile(String fileName)
+	public static boolean isXMLFile(String filename)
 	{
-		return fileName.endsWith(".xml");
+		return filename.endsWith(".xml");
 	}
 	
-	public static String getLocalFromFileName(String fileName)
+	public static String getLocalFromFileName(String filename)
 	{
-		return fileName.substring(fileName.lastIndexOf("/")+1, fileName.lastIndexOf("."));
+		return filename.substring(filename.lastIndexOf("/")+1, filename.lastIndexOf("."));
 	}
 	
 	public static String getLocalizationString(String key)

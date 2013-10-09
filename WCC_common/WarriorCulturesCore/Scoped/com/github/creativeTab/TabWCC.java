@@ -1,5 +1,6 @@
 package WarriorCulturesCore.Scoped.com.github.creativeTab;
 
+import WarriorCulturesCore.Scoped.com.github.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -18,6 +19,6 @@ public class TabWCC extends CreativeTabs
 	@SideOnly(Side.CLIENT)
 	public ItemStack getIconItemStack()
 	{
-		return new ItemStack(Item.axeDiamond);
+		return new ItemStack(ModItems.ForgeTools, 1);
 	}
 }

@@ -80,7 +80,6 @@ public class Super_Block_Meta extends Block
      * When this method is called, your block should register all the icons it needs with the given IconRegister. This
      * is the only chance you get to register icons.
      */
-	
 	public void registerIcons(IconRegister iconRegister)
 	{
 		icons = new Icon[this.getNumberOfBlocks()];

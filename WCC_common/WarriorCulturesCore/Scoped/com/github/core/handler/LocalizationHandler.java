@@ -8,9 +8,9 @@ public class LocalizationHandler
 {
 	public static void loadLanguages()
 	{
-		for(String LocationFile : Localizations.localFiles)
+		for(String LocalizationFile : Localizations.localFiles)
 		{
-			LanguageRegistry.instance().loadLocalization(LocationFile, LocalizationHelper.getLocalFromFileName(LocationFile), LocalizationHelper.isXMLFile(LocationFile));
+			LanguageRegistry.instance().loadLocalization(LocalizationFile, LocalizationHelper.getLocalFromFileName(LocalizationFile), LocalizationHelper.isXMLFile(LocalizationFile));
 		}
 	}
 }
