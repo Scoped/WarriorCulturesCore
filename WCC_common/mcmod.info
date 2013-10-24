@@ -1,8 +1,8 @@
 [
 {
-  "modid": "WC",
-  "name": "WarriorCultures",
-  "description": "Now its truly fighting!",
+  "modid": "WCM",
+  "name": "WarriorCultures Main",
+  "description": "Overrides serveral methods in MineCraft",
   "version": "0.0.1",
   "url": "",
   "updateUrl": "",
